@@ -1,0 +1,9 @@
+{
+  "id": "1",
+  "baseImage": "node:20.16.0-slim",
+  "workDir": "/app",
+  "copyFiles": ". src",
+  "runCmds": "npm ci --only=production",
+  "exposePort": 3000,
+  "defaultCmd": "node app.js"
+}
